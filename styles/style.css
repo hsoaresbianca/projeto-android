@@ -84,7 +84,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     text-align: justify;
     background-color: white;
     padding: 16px;
@@ -181,7 +181,7 @@ aside > p {
     padding: 16px;
 }
 
-#p-sem-padding-top {
+.p-sem-padding-top {
     padding-top: 0px;
 }
 
@@ -192,8 +192,13 @@ aside a {
 footer {
     text-align: center;
     background-color: var(--cor1);
-    padding: 8px 0px;
     color: white;
+}
+
+footer p {
+    max-width: 320px;
+    margin: auto;
+    padding: 16px 0px;
 }
 
 footer a {
